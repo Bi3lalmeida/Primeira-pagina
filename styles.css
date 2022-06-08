@@ -1,0 +1,100 @@
+:root {
+    --preto-link:#111827;
+    --preto-menor:#374151;
+    --preto-titulo: #000000;
+    --preto-neutro: #111827;
+    --verde-secundário: #75E3EA;
+    --botao-roxo: #7C3AED;
+    --cor-de-fundo: #F2F7FF;
+    --roxo-secundário: #C4B5FD;
+    --lilás-secundário: #EDE9FE;
+    --rosa-logo: #F22BB2;
+    --laranja-logo: #FE9A22;
+    --roxo-logo: #8C30F5;
+
+
+}
+
+body {
+    background-image: url("Background.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+ul {
+
+    list-style-type: none;
+
+}
+
+li {
+    display: inline;
+    margin-left: 24px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.navLinks {
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
+.navPhone{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px;
+    align-items: flex-start;
+    
+
+}
+
+h1{
+    color: #111827;
+    font-family: "Inter";
+    font-weight: 700;
+    font-size: 60px;
+}
+
+h4{
+    color: #374151;
+    font-family: "Inter";
+}
+
+ul{
+    color: #111827;
+    font-family: "Inter";
+}
+
+.roxo{
+    padding: 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: #7C3AED;
+    color: #F2F7FF;
+}
+
+.branco{
+    padding: 15px;
+    border: none;
+    color: var(--botao-roxo);
+    background-color: var(--cor-de-fundo);
+    text-decoration: none;
+    
+    
+}
+
+.iconWatch{
+    
+   justify-content: center;
+    
+}
+
+.phone{
+    margin-right: 100px;
+}
